@@ -9,10 +9,13 @@ public class ex1011 {
 
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
-        double pi = 3.14159;
-        double raio = sc.nextDouble();
-        double volume = (4.0/3)*pi*Math.pow(raio, 3);
-        System.out.printf("%.3f",volume);
+
+        double pi, raio, raio3, total;
+        raio = sc.nextDouble();
+        pi = 3.14159;
+        raio3 = Math.pow(raio,3);
+        total = (4/3.0) * pi * raio3;
+        System.out.printf("VOLUME = %.3f", total);
 
         sc.close();
     }

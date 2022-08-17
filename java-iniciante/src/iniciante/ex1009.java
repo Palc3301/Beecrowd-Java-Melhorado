@@ -12,7 +12,7 @@ public class ex1009 {
         double salario = sc.nextDouble();
         double vendas = sc.nextDouble();
         double total = salario + vendas*0.15;
-        System.out.printf("%s Irá receber: %.2f",nome, total);
+        System.out.printf("%TOTAL = %.2f",nome, total);
         sc.close();
 
     }

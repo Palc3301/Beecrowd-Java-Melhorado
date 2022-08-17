@@ -7,17 +7,13 @@ public class ex1010 {
 
     public static void main(String[] args) {
 
-        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        String [] entrada = null;
-        double resultado = 0;
-        for (int i = 0; i < 5; i++) {
-            entrada= sc.nextLine().split(" ");
-            double qtd = Double.parseDouble(entrada[1]);
-            double valor = Double.parseDouble(entrada[2]);
-            resultado += qtd*valor;
-        }
-        System.out.printf("TOTAL: %.2f", resultado);
+        Locale.setDefault(Locale.US);
+        double pi = 3.14159;
+        double raio = sc.nextDouble();
+        double volume = (4.0/3)*pi*Math.pow(raio, 3);
+        System.out.printf("%.3f",volume);
+
         sc.close();
     }
 }
