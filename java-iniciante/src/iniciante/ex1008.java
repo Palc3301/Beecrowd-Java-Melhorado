@@ -13,6 +13,7 @@ public class ex1008 {
         double salario = sc.nextDouble();
         double resultado = qtdHoras*salario;
         System.out.printf("NUMBER = %.2f\nSALARY = U$ %.2f", codigo, resultado);
+
         sc.close();
     }
 }

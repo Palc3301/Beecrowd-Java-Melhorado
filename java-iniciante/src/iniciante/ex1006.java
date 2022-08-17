@@ -15,6 +15,7 @@ public class ex1006 {
 
         double media = ((nota1*2) + (nota2*3) + (nota3*5))/10;
         System.out.println(media);
+
         sc.close();
     }
 }

@@ -18,5 +18,6 @@ public class ex1017 {
 
         System.out.printf( "%.3f", media);
 
+        sc.close();
     }
 }

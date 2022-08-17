@@ -13,5 +13,7 @@ public class ex1016 {
         y = x * 2;
 
         System.out.println(y + " minutos");
+
+        sc.close();
     }
 }

@@ -17,6 +17,7 @@ public class ex1013 {
         int maiorabc = (maiorab + c + Math.abs(maiorab - c)) / 2;
 
         System.out.println(maiorab + "eh o maior");
+
         sc.close();
     }
 }

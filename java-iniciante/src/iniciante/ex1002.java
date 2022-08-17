@@ -12,7 +12,7 @@ public class ex1002 {
         double n = 3.14159;
         double area = n * (entrada * entrada);
         System.out.printf("A=%.4f",area);
-        sc.close();
 
+        sc.close();
     }
 }

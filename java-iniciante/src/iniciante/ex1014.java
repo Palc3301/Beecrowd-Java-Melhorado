@@ -14,5 +14,7 @@ public class ex1014 {
         double kmL = x/y;
 
         System.out.printf("%.3f km/l", kmL);
+
+        sc.close();
     }
 }
